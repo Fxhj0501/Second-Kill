@@ -85,8 +85,10 @@ auto">
         layer.closeAll();
         if (data.code == 200) {
           layer.msg("成功");
+          console.log("asdasdasd");
           window.location.href = "/goods/toList";
         } else {
+          console.log("asdasdasd");
           layer.msg(data.message);
         }
       },
